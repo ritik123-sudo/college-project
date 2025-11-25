@@ -1,39 +1,70 @@
-## Live Demo
-https://college-project-two-orcin.vercel.app
+# BizGenius AI – Small Business OS  
+**Live Demo:** [https://college-project-two-orcin.vercel.app](https://college-project-two-orcin.vercel.app)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Overview  
+BizGenius AI is a modern business dashboard built with Next.js and TypeScript. It offers a suite of AI-powered tools to help small and medium-sized businesses manage finance, inventory, pricing, marketing and support—all from a unified interface.
 
-## Getting Started
+## Key Features  
+- **Dashboard** – At-a-glance KPIs, trends & insights  
+- **Finance & Budget** – Track income, expenses, and budget forecasting  
+- **Inventory AI** – Intelligent inventory recommendations & restock alerts  
+- **Price Optimizer** – Dynamic pricing simulation and prediction  
+- **Marketing Generator** – AI-assisted campaign generation and messaging  
+- **Customer Support** – AI-powered chat module and support tools  
+- Built with Tailwind CSS, Lucide icons, Recharts for charts, and modern UI components  
+- Deployed on Vercel for fast, global performance  
 
-First, run the development server:
+## Tech Stack  
+- **Framework**: Next.js (v16)  
+- **Language**: TypeScript  
+- **Styling**: Tailwind CSS  
+- **Icons**: Lucide-React  
+- **Charts/Visualization**: Recharts  
+- **Utilities**: clsx, tailwind-merge  
+- **deployment**: Vercel  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation & Development  
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/ritik123-sudo/college-project.git
+   cd college-project
+2. Install dependencies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Start development server
 
-## Learn More
+   npm run dev
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Open http://localhost:3000
+   in your browser to view.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Make edits and watch live-reload in action.
+   Build & Deployment
 
-## Deploy on Vercel
+Built for production with:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    npm run build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Deploys automatically on push via Vercel.
+For manual deploy: link the repository on Vercel, then select “Deploy”.
+
+Project Structure
+  /src
+    /app         → Next.js app directory with route segments
+    /components  → UI components (layout, charts, features)
+    /lib         → Utility functions (e.g., `cn()`)
+  /public         → Static assets
+  next.config.ts  → Next.js configuration
+  tailwind.config.ts → Tailwind configuration
+Contributing
+
+Feel free to fork the project, open issues or submit pull requests. Improvements, bug fixes and welcomed.
+
+Created by Ritik Shankar
+GitHub: @ritik123-sudo
+
+Email: shankarritik832@gmail.com

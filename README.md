@@ -50,33 +50,33 @@ Built for production with:
 Deploys automatically on push via Vercel.
 For manual deploy: link the repository on Vercel, then select “Deploy”.
 
-# 📁 Project Structure
-
-/college-project
+## 📁 Project Structure
+```bash
+college-project/
 ├── public/
 │   ├── favicon.ico
-│   ├── ...
-│   └── (static assets)
+│   └── ...                 # Static assets
+│
 ├── src/
-│   ├── app/
-│   │   ├── ....
-│   │   ├── ....
-│   │   └── ....
-│   ├── components/
+│   ├── app/               # Next.js app directory (route segments)
+│   │   └── ...
+│   │
+│   ├── components/        # UI components
 │   │   ├── layout/
 │   │   ├── charts/
-│   │   ├── features/
-│   │   └── (UI components)
-│   ├── lib/
-│   │   └── cn.ts
-│   
+│   │   └── features/
+│   │
+│   └── lib/
+│       └── cn.ts          # Utility functions
+│
 ├── .gitignore
 ├── README.md
 ├── eslint.config.mjs
 ├── next.config.ts
-├── package-lock.json
 ├── package.json
+├── package-lock.json
 ├── postcss.config.mjs
 ├── tailwind.config.ts
 └── tsconfig.json
+```
 

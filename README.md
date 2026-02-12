@@ -29,19 +29,17 @@ BizGenius AI is a modern business dashboard built with Next.js and TypeScript. I
    git clone https://github.com/ritik123-sudo/college-project.git
    cd college-project
 2. Install dependencies
-
+    ```bash
     npm install
 
-
 3. Start development server
-
+    ```bash
    npm run dev
-
 
 4. Open http://localhost:3000
    in your browser to view.
 
-5. Make edits and watch live-reload in action.
+6. Make edits and watch live-reload in action.
    Build & Deployment
 
 Built for production with:

@@ -122,6 +122,16 @@ Want to run this locally? Follow these steps:
 
 ---
 
+## Future Improvements
+
+While the frontend is complete, here is what I would add next:
+
+* **Backend Integration:** Connect to a Supabase/PostgreSQL database to store real transactions.
+* **Real AI:** Integrate the OpenAI API to replace the simulated text generation with actual GPT-4 responses.
+* **Auth:** Add login functionality.
+
+ ---
+
 ## Responsiveness
 
 This app is fully responsive!

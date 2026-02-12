@@ -50,19 +50,33 @@ Built for production with:
 Deploys automatically on push via Vercel.
 For manual deploy: link the repository on Vercel, then select “Deploy”.
 
-Project Structure
-  /src
-    /app         → Next.js app directory with route segments
-    /components  → UI components (layout, charts, features)
-    /lib         → Utility functions (e.g., `cn()`)
-  /public         → Static assets
-  next.config.ts  → Next.js configuration
-  tailwind.config.ts → Tailwind configuration
-Contributing
+# 📁 Project Structure
 
-Feel free to fork the project, open issues or submit pull requests. Improvements, bug fixes and welcomed.
+/college-project
+├── public/
+│   ├── favicon.ico
+│   ├── ...
+│   └── (static assets)
+├── src/
+│   ├── app/
+│   │   ├── ....
+│   │   ├── ....
+│   │   └── ....
+│   ├── components/
+│   │   ├── layout/
+│   │   ├── charts/
+│   │   ├── features/
+│   │   └── (UI components)
+│   ├── lib/
+│   │   └── cn.ts
+│   
+├── .gitignore
+├── README.md
+├── eslint.config.mjs
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+└── tsconfig.json
 
-Created by Ritik Shankar
-GitHub: @ritik123-sudo
-
-Email: shankarritik832@gmail.com

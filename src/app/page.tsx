@@ -14,7 +14,7 @@ export default function Home() {
       
       <div className="flex justify-center gap-4">
         <Link 
-          href="/dashboard" 
+          href="/login" 
           className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all flex items-center gap-2"
         >
           Launch Dashboard <ArrowRight size={20} />
